@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mhw>
+    <quests>
+        <assigned>
+            <quest rank="Low" type="Hunt">
+                <name>The Best Kind of Quest</name>
+                <stars>3</stars>
+                <objectives>
+                    <objective>Barroth</objective>
+                </objectives>
+                <location>Wildspire Waste</location>
+                <reward unit="zenny">2520</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="HR">3</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster>Apceros</monster>
+                    <monster>Diablos</monster>
+                    <monster>Kestodon</monster>
+                    <monster>Gajau</monster>
+                    <monster>Noios</monster>
+                </monsters>
+            </quest>
+            <quest rank="Master" type="Slay">
+                <name>Under the Veil of Death</name>
+                <stars>5</stars>
+                <objectives>
+                    <objective>Blackveil Vaal Hazak</objective>
+                </objectives>
+                <location>Ancient Forest</location>
+                <reward unit="zenny">36000</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="MR">19</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster>Jagras</monster>
+                    <monster>Mernos</monster>
+                    <monster>Gajalaka</monster>
+                    <monster>Aptonoth</monster>
+                </monsters>
+            </quest>
+            <quest rank="High" type="Repel">
+                <name>A Colossal Task</name>
+                <stars>6</stars>
+                <objectives>
+                    <objective>Zorah Magdaros</objective>
+                </objectives>
+                <location>Everstream</location>
+                <reward unit="zenny">8280</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="HR">10</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                    <failure_condition guide="false">Zorah Magdaros</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster>Barnos</monster>
+                    <monster>Nergigante</monster>
+                </monsters>
+            </quest>
+        </assigned>
+        <optional>
+            <quest rank="High" type="Slay">
+                <name>The Eater of Elders</name>
+                <stars>8</stars>
+                <objectives>
+                    <objective>Nergigante</objective>
+                </objectives>
+                <location>Elder's Recesst</location>
+                <reward unit="zenny">18000</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="HR">13</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster>Teostra</monster>
+                </monsters>
+            </quest>
+            <quest rank="Master" type="Capture">
+                <name>The Purr-fect Room: Stone</name>
+                <stars>3</stars>
+                <objectives>
+                    <objective>Tigrex</objective>
+                </objectives>
+                <location>Hoarfrost Reach</location>
+                <reward unit="zenny">32760</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="MR">10</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                    <failure_condition dead="true">Tigrex</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster>Wulg</monster>
+                    <monster>Cortos</monster>
+                    <monster>Anteka</monster>
+                    <monster>Boaboa</monster>
+
+                </monsters>
+            </quest>
+            <quest rank="Low" type="Hunt">
+                <name>The Great Glutton</name>
+                <stars>2</stars>
+                <objectives>
+                    <objective>Great Jagras</objective>
+                </objectives>
+                <location>Ancient Forest</location>
+                <reward unit="zenny">1800</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition/>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster>Aptonoth</monster>
+                    <monster>Jagras</monster>
+                    <monster>Mernos</monster>
+                </monsters>
+            </quest>
+        </optional>
+        <events>
+            <quest rank="Master" type="Hunt">
+                <name>We Three Kings</name>
+                <stars>5</stars>
+                <objectives>
+                    <objective>Kirin</objective>
+                    <objective>Kushala Daora</objective>
+                    <objective>Teostra</objective>
+                </objectives>
+                <location>Special Arena</location>
+                <reward unit="zenny">75600</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="MR">19</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster/>
+                </monsters>
+            </quest>
+            <quest rank="High"  type="Slay">
+                <name>Like a Moth to the Flame</name>
+                <stars>9</stars>
+                <objectives>
+                    <objective>Arch-Tempered Xeno'jiiva</objective>
+                </objectives>
+                <location>Confluence of Fates</location>
+                <reward unit="zenny">43200</reward>
+                <time_limit unit="minutes">30</time_limit>
+                <condition unit="HR">50</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster/>
+                </monsters>
+            </quest>
+            <quest rank="Low" type="Hunt">
+                <name>Ya-Ku With That?</name>
+                <stars>4</stars>
+                <objectives>
+                    <objective>Kulu-Ya-Ku</objective>
+                    <objective>Tzitzi-Ya-Ku</objective>
+                </objectives>
+                <location>Special Arena</location>
+                <reward unit="zenny">4320</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="HR">6</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster/>
+                </monsters>
+            </quest>
+        </events>
+        <special>
+            <quest rank="High" type="Slay">
+                <name>No Remorse, No Surrender</name>
+                <stars>8</stars>
+                <objectives>
+                    <objective>Lunastra</objective>
+                    <objective>Teostra</objective>
+                </objectives>
+                <location>Elder's Recess</location>
+                <reward unit="zenny">28800 </reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="HR">16</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster/>
+                </monsters>
+            </quest>
+            <quest rank="Master" type="Slay">
+                <name>Dawn's Triumph</name>
+                <stars>6</stars>
+                <objectives>
+                    <objective>Alatreon</objective>
+                </objectives>
+                <location>Secluded Valley</location>
+                <reward unit="zenny">28800</reward>
+                <time_limit unit="minutes">50</time_limit>
+                <condition unit="MR">24</condition>
+                <failure_conditions>
+                    <failure_condition unit="minutes">0</failure_condition>
+                    <failure_condition unit="faints">3</failure_condition>
+                </failure_conditions>
+                <monsters>
+                    <monster/>
+                </monsters>
+            </quest>
+        </special>
+    </quests>
+</mhw>
