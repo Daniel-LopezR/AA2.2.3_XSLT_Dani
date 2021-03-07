@@ -150,7 +150,7 @@
                     <monster/>
                 </monsters>
             </quest>
-            <quest rank="High"  type="Slay">
+            <quest rank="High" type="Slay">
                 <name>Like a Moth to the Flame</name>
                 <stars>9</stars>
                 <objectives>
@@ -197,7 +197,7 @@
                     <objective>Teostra</objective>
                 </objectives>
                 <location>Elder's Recess</location>
-                <reward unit="zenny">28800 </reward>
+                <reward unit="zenny">28800</reward>
                 <time_limit unit="minutes">50</time_limit>
                 <condition unit="HR">16</condition>
                 <failure_conditions>

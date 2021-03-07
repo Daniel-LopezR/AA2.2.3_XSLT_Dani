@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mhw>
+    <master_rank_quests>
+        <quest name="Dawn's Triumph" stars="6">
+            <type>Slay</type>
+            <location>Secluded Valley</location>
+            <reward unit="zenny">28800</reward>
+            <condition unit="MR">24</condition>
+            <monsters>
+                <monster/>
+            </monsters>
+        </quest>
+        <quest name="The Purr-fect Room: Stone" stars="3">
+            <type>Capture</type>
+            <location>Hoarfrost Reach</location>
+            <reward unit="zenny">32760</reward>
+            <condition unit="MR">10</condition>
+            <monsters>
+                <monster>Wulg</monster>
+                <monster>Cortos</monster>
+                <monster>Anteka</monster>
+                <monster>Boaboa</monster>
+            </monsters>
+        </quest>
+        <quest name="Under the Veil of Death" stars="5">
+            <type>Slay</type>
+            <location>Ancient Forest</location>
+            <reward unit="zenny">36000</reward>
+            <condition unit="MR">19</condition>
+            <monsters>
+                <monster>Jagras</monster>
+                <monster>Mernos</monster>
+                <monster>Gajalaka</monster>
+                <monster>Aptonoth</monster>
+            </monsters>
+        </quest>
+        <quest name="We Three Kings" stars="5">
+            <type>Hunt</type>
+            <location>Special Arena</location>
+            <reward unit="zenny">75600</reward>
+            <condition unit="MR">19</condition>
+            <monsters>
+                <monster/>
+            </monsters>
+        </quest>
+    </master_rank_quests>
+</mhw>

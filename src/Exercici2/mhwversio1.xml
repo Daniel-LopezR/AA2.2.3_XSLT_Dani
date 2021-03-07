@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mhw>
+    <misiones>
+        <asignado>
+            <mision rango="Low" tipo="Hunt">
+                <nombre>The Best Kind of Quest</nombre>
+                <estrellas>3</estrellas>
+                <objectivos>
+                    <objectivo>Barroth</objectivo>
+                </objectivos>
+                <localizacion>Wildspire Waste</localizacion>
+                <reward unidad="zenny">2520</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="HR">3</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo>Apceros</monstruo>
+                    <monstruo>Diablos</monstruo>
+                    <monstruo>Kestodon</monstruo>
+                    <monstruo>Gajau</monstruo>
+                    <monstruo>Noios</monstruo>
+                </monstruos>
+            </mision>
+            <mision rango="Master" tipo="Slay">
+                <nombre>Under the Veil of Death</nombre>
+                <estrellas>5</estrellas>
+                <objectivos>
+                    <objectivo>Blackveil Vaal Hazak</objectivo>
+                </objectivos>
+                <localizacion>Ancient Forest</localizacion>
+                <reward unidad="zenny">36000</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="MR">19</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo>Jagras</monstruo>
+                    <monstruo>Mernos</monstruo>
+                    <monstruo>Gajalaka</monstruo>
+                    <monstruo>Aptonoth</monstruo>
+                </monstruos>
+            </mision>
+            <mision rango="High" tipo="Repel">
+                <nombre>A Colossal Task</nombre>
+                <estrellas>6</estrellas>
+                <objectivos>
+                    <objectivo>Zorah Magdaros</objectivo>
+                </objectivos>
+                <localizacion>Everstream</localizacion>
+                <reward unidad="zenny">8280</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="HR">10</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                    <condicion_fracaso guiar="false">Zorah Magdaros</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo>Barnos</monstruo>
+                    <monstruo>Nergigante</monstruo>
+                </monstruos>
+            </mision>
+        </asignado>
+        <opcionales>
+            <mision rango="High" tipo="Slay">
+                <nombre>The Eater of Elders</nombre>
+                <estrellas>8</estrellas>
+                <objectivos>
+                    <objectivo>Nergigante</objectivo>
+                </objectivos>
+                <localizacion>Elder's Recesst</localizacion>
+                <reward unidad="zenny">18000</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="HR">13</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo>Teostra</monstruo>
+                </monstruos>
+            </mision>
+            <mision rango="Master" tipo="Capture">
+                <nombre>The Purr-fect Room: Stone</nombre>
+                <estrellas>3</estrellas>
+                <objectivos>
+                    <objectivo>Tigrex</objectivo>
+                </objectivos>
+                <localizacion>Hoarfrost Reach</localizacion>
+                <reward unidad="zenny">32760</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="MR">10</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                    <condicion_fracaso muerto="true">Tigrex</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo>Wulg</monstruo>
+                    <monstruo>Cortos</monstruo>
+                    <monstruo>Anteka</monstruo>
+                    <monstruo>Boaboa</monstruo>
+                </monstruos>
+            </mision>
+            <mision rango="Low" tipo="Hunt">
+                <nombre>The Great Glutton</nombre>
+                <estrellas>2</estrellas>
+                <objectivos>
+                    <objectivo>Great Jagras</objectivo>
+                </objectivos>
+                <localizacion>Ancient Forest</localizacion>
+                <reward unidad="zenny">1800</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad=""/>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo>Aptonoth</monstruo>
+                    <monstruo>Jagras</monstruo>
+                    <monstruo>Mernos</monstruo>
+                </monstruos>
+            </mision>
+        </opcionales>
+        <eventos>
+            <mision rango="Master" tipo="Hunt">
+                <nombre>We Three Kings</nombre>
+                <estrellas>5</estrellas>
+                <objectivos>
+                    <objectivo>Kirin</objectivo>
+                    <objectivo>Kushala Daora</objectivo>
+                    <objectivo>Teostra</objectivo>
+                </objectivos>
+                <localizacion>Special Arena</localizacion>
+                <reward unidad="zenny">75600</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="MR">19</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo/>
+                </monstruos>
+            </mision>
+            <mision rango="High" tipo="Slay">
+                <nombre>Like a Moth to the Flame</nombre>
+                <estrellas>9</estrellas>
+                <objectivos>
+                    <objectivo>Arch-Tempered Xeno'jiiva</objectivo>
+                </objectivos>
+                <localizacion>Confluence of Fates</localizacion>
+                <reward unidad="zenny">43200</reward>
+                <tiempo_limite unidad="minutes">30</tiempo_limite>
+                <condicion unidad="HR">50</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo/>
+                </monstruos>
+            </mision>
+            <mision rango="Low" tipo="Hunt">
+                <nombre>Ya-Ku With That?</nombre>
+                <estrellas>4</estrellas>
+                <objectivos>
+                    <objectivo>Kulu-Ya-Ku</objectivo>
+                    <objectivo>Tzitzi-Ya-Ku</objectivo>
+                </objectivos>
+                <localizacion>Special Arena</localizacion>
+                <reward unidad="zenny">4320</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="HR">6</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo/>
+                </monstruos>
+            </mision>
+        </eventos>
+        <especiales>
+            <mision rango="High" tipo="Slay">
+                <nombre>No Remorse, No Surrender</nombre>
+                <estrellas>8</estrellas>
+                <objectivos>
+                    <objectivo>Lunastra</objectivo>
+                    <objectivo>Teostra</objectivo>
+                </objectivos>
+                <localizacion>Elder's Recess</localizacion>
+                <reward unidad="zenny">28800</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="HR">16</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo/>
+                </monstruos>
+            </mision>
+            <mision rango="Master" tipo="Slay">
+                <nombre>Dawn's Triumph</nombre>
+                <estrellas>6</estrellas>
+                <objectivos>
+                    <objectivo>Alatreon</objectivo>
+                </objectivos>
+                <localizacion>Secluded Valley</localizacion>
+                <reward unidad="zenny">28800</reward>
+                <tiempo_limite unidad="minutes">50</tiempo_limite>
+                <condicion unidad="MR">24</condicion>
+                <condiciones_fracaso>
+                    <condicion_fracaso unidad="minutes">0</condicion_fracaso>
+                    <condicion_fracaso unidad="faints">3</condicion_fracaso>
+                </condiciones_fracaso>
+                <monstruos>
+                    <monstruo/>
+                </monstruos>
+            </mision>
+        </especiales>
+    </misiones>
+</mhw>

@@ -1,5 +1,4 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
   <xsl:template match="/dataroot">
     <PELICULES_DOBLADES>
       <xsl:for-each select="FILM[contains(VERSIO/text(),'Doblada')]">
@@ -32,5 +31,4 @@
       </xsl:for-each>
     </PELICULES_DOBLADES>
   </xsl:template>
-
 </xsl:stylesheet>
