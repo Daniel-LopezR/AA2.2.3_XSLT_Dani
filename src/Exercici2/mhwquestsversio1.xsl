@@ -4,7 +4,7 @@
         <mhw>
             <misiones>
                 <asignado>
-                    <xsl:for-each select="assigned|/quest">
+                    <xsl:for-each select="assigned/quest">
                         <mision>
                             <xsl:attribute name="rango">
                                 <xsl:value-of select="@rank"/>
